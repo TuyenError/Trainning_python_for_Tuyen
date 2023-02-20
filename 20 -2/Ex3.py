@@ -1,19 +1,23 @@
 #Vòng for
-width = int(input("Nhap chieu rong: "))
-height = int(input("Nhap chieu dai: "))
+r = int(input("Nhap chieu rong: "))
+d = int(input("Nhap chieu dai: "))
 
-for i in range(height):
-    print('*' * width)
+for i in range(d):
+    for j in range(r):
+        print('*', end='')
+    print()
 
 #Vòng while
-width = int(input("Nhap chieu rong: "))
-height = int(input("Nhap chieu dai: "))
+r = int(input("Nhap chieu rong: "))
+d = int(input("Nhap chieu dai: "))
 
 i = 0
-while i < height:
-    j = 0
-    while j < width:
-        print('*', end='')
-        j += 1
+while i < d:
+    j =0
+    while j < r:
+        print ('*',end='')
+        j = j+1
     print()
-    i += 1
+    i=i+1
+
+
