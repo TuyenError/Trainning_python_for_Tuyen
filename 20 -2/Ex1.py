@@ -1,5 +1,4 @@
 n=int(input("Nhap: "))
-
 for i in range(n): 
     print("*", end="")
 print()
