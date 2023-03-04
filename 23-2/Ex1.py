@@ -1,6 +1,4 @@
-# # Bài 1 : Nhập tháng bất kỳ, trả lời tháng đó có bao nhiêu ngày?
-# # Dùng vòng lặp while
-
+#while
 n = int(input("Nhập tháng: "))
 day = 0
 
